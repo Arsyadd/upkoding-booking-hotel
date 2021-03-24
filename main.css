@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	font-size: 14px;
+	background-image: url(gambar/bg.jpg);
+	background-blend-mode: gray;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	font-family: Roboto;
+}
+
+/*card-form*/
+section{
+	margin-top: 45px;
+	width: 100%
+}
+.card{
+	position: relative;
+	z-index: 9999;
+	margin: auto;
+	width: 432px;
+	height: 496px;
+	background: #E8ECF0;
+	box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.card .judul{
+	color: #222A37;
+	font-weight: bold;
+	padding: 25px;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+.card .location{
+	margin-top: -10px;
+	padding-left: 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.5);
+}
+.card .lokasi{
+	padding-left: 15px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	text-align: left;
+	margin: 0px 25px;
+	width: 379px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+.card .check{
+	padding: 20px 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.5);
+}
+.card .check span{
+	padding-left: 125px;
+}
+.card .kiri{
+	padding-left: 15px;
+	letter-spacing: 1.5px;
+	font-size: 22px;
+	margin: -20px 25px;
+	width: 185.5px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+.card .kanan{
+	padding-left: 25px;
+	letter-spacing: 1.5px;
+	font-size: 22px;
+	float: right;
+	margin: -55px 28px;
+	width: 185.5px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+.card .rooms{
+	padding-top: 40px;
+	padding-left: 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.5);
+}
+.card .rooms .adults{
+	padding-left: 70px;
+}
+.card .rooms .kids{
+	padding-left: 75px;
+}
+.card .room{
+	padding-left: 15px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px 25px;
+	width: 120px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+.card .adult{
+	padding-left: 15px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px -17px;
+	width: 120px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+.card .kid{
+	padding-left: 15px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px 25px;
+	width: 120px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+
+.properties{
+	z-index: -9999;
+	margin: -20px auto;
+	width: 379px;
+}
+.properties .isi{
+	width: 379px;
+	height: 93px;
+	background: #FF455B;
+	border-radius: 10px;
+}
+.properties .isi p{
+	padding-top: 43px; 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+/*Responsive*/
+@media (max-width: 400px){
+	body{
+		height: 700px;
+		width: 100%;
+	}
+	.judul{
+		text-align: center;
+	}
+	.card{
+		background-color: transparent;
+	}
+	.properties{
+		margin: 0px 25px;
+	}
+	.properties .isi p{
+		padding-top: 33px;
+	}
+}
